@@ -48,7 +48,6 @@ namespace Education {
 			dotnetbc4.Students.Add(jj);
 
 			//Console.WriteLine(dotnetbc4.Students[0].Name);
-
 		}
 	}
 }
