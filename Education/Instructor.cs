@@ -13,5 +13,14 @@ namespace Education {
 		public string Email { get; set; }
 		public string PhoneNumber { get; set; }
 
+		//method that creates assignment and distributes one copy of the assignment to each student in a given class
+		public Assignment CreateAssignment(string name, string assignmentId) {
+			Assignment asgn = new Assignment();
+			asgn.Comments = null;
+			asgn.Grade = null;
+			asgn.Name = name;
+			asgn.AssignmentId = assignmentId;
+			return asgn;
+		}
 	}
 }

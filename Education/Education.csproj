@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assignment.cs" />
     <Compile Include="Class.cs" />
     <Compile Include="Instructor.cs" />
     <Compile Include="Program.cs" />
