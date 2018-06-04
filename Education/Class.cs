@@ -19,9 +19,9 @@ namespace Education {
 			set { //the set method represents the left side of equal wherein one will set the value of this variable
 				if (value == "CSharp" || value == "Java") {//the variable "value" represents the data someone is trying to put in this variable -- we can filter this data to make sure it's either CSharp of Java
 					_Language = value;
-				} else {
-					throw new ApplicationException("Language must be CSharp of Java");
-				}
+				} //else {
+					//throw new ApplicationException("Language must be CSharp of Java");
+				//}
 			}
 		}
 		public string Code { get; set; }
